@@ -1,8 +1,0 @@
-composer.lock
-node_modules/
-vendor/
-logs/
-reports/
-
-.DS_Store
-.DS_Store?
