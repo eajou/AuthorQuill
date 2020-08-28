@@ -6,6 +6,8 @@
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
+	<h1>Single {Post Page}</h1>
+
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 

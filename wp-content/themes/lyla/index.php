@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
 	<main role="main">
+
+	<h1>Index</h1>
+	
 		<!-- section -->
 		<section>
 

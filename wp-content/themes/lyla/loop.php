@@ -1,5 +1,7 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
+<h1>This is the Loop</h1>
+
 	<!-- article -->
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
