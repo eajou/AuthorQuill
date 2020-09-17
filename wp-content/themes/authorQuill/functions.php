@@ -115,11 +115,8 @@ function lyla_conditional_scripts()
 // Load HTML5 Blank styles
 function lyla_styles()
 {
-    wp_register_style('normalize', get_template_directory_uri() . '/normalize.css', array(), '1.0', 'all');
-    wp_enqueue_style('normalize'); // Enqueue it!
-
-    wp_register_style('lyla', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
-    wp_enqueue_style('lyla'); // Enqueue it!
+    wp_register_style('quill', get_template_directory_uri() . '/main.css', array(), '1.0', 'all');
+    wp_enqueue_style('quill'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
@@ -177,17 +174,6 @@ if (function_exists('register_sidebar'))
         'name' => __('Widget Area 1', 'lyla'),
         'description' => __('Description for this widget-area...', 'lyla'),
         'id' => 'widget-area-1',
-        'before_widget' => '<div id="%1$s" class="%2$s">',
-        'after_widget' => '</div>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
-    ));
-
-    // Define Sidebar Widget Area 2
-    register_sidebar(array(
-        'name' => __('Widget Area 2', 'lyla'),
-        'description' => __('Description for this widget-area...', 'lyla'),
-        'id' => 'widget-area-2',
         'before_widget' => '<div id="%1$s" class="%2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h3>',

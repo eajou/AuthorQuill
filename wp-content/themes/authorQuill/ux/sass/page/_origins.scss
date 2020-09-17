@@ -1,0 +1,15 @@
+#origins {
+
+    .series,
+    .blurb > section {
+        display: block;
+        background-image: url('./assets/series-grimm/bkg-origins.png');        
+
+        .image {
+            margin-bottom: -4px;
+            max-width: 100%;
+        }
+    } 
+
+    @include bookTables;
+}

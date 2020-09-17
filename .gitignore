@@ -85,3 +85,7 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+wp-content/themes/authorQuill/package-lock.json
+wp-content/themes/authorQuill/ux/.DS_Store
+wp-content/themes/.DS_Store
+wp-content/themes/authorQuill/.DS_Store

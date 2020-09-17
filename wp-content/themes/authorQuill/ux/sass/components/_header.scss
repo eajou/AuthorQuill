@@ -1,0 +1,37 @@
+#pageTop {
+    display: block;
+    height: 60px;
+    width: 100%;
+    background: url('./assets/layout/main_damask.png') repeat;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .hero {
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+}
+
+#home .hero {
+    background-image: url('./assets/layout/home.jpg');
+    background-position: bottom center;
+}
+
+#grimm .hero {
+    background-image: url('./assets/series-grimm/header-grimm.png');
+    background-position: top left;
+}
+
+#red .hero {
+    background-image: url('./assets/series-red/header-red.png');
+    background-position: top left;
+}

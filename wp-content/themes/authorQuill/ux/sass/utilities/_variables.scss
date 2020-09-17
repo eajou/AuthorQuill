@@ -1,0 +1,43 @@
+
+/*
+============================================================
+  Responsive behaviors
+============================================================
+*/
+
+$media-mobile: "screen and (max-width : 480px)";
+$media-desktop: "screen and (min-width : 481px)";
+
+
+/*
+============================================================
+  Colors
+============================================================
+*/
+
+$gray:      #313130;
+$white:		  #dfd7d5;
+
+$mainBackgroundColor:			#313130;	 
+$secondaryBackgroundColor:		#282827;
+
+
+/*
+============================================================
+  Fonts
+============================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+$fancyFont:						'Cinzel Decorative', cursive;
+$normalFont:					'PT Serif', serif;
+
+
+/*
+============================================================
+  Images
+============================================================
+*/
+
+$rose:							url('./assets/layout/rose-nav.png');

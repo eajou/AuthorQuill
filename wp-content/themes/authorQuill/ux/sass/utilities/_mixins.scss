@@ -1,0 +1,49 @@
+@mixin nospace {
+	padding: 0;
+	margin: 0;
+}
+
+@mixin clearFix {
+	content: "";
+	clear: both;
+	display: table;	
+}
+
+@mixin activePage {
+	display: block;
+	content: '';
+	width: 100%;
+	height: 30px;
+	background: $rose no-repeat center center;
+}
+
+@mixin textShadow {
+	text-shadow: 
+		0 0 1.5rem #4f443b,
+		-0.2rem 0.1rem 1rem #4f443b, 
+		0.2rem 0.1rem 1rem #4f443b;
+}
+
+@mixin bookTables {
+	.series-display {
+		.book {
+			display: table;
+	
+			.image,
+			.info {
+				float: none;
+				display: table-cell;
+				vertical-align: middle;
+			}
+	
+			.image {
+				margin-left: 0;
+			}
+
+			.info {
+				padding-right: 0;
+				padding-left: 60px;
+			}
+		}
+	}	
+}

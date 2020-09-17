@@ -1,0 +1,87 @@
+.subhead {
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url('/assets/layout/rock.png');
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	.logo {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 300px;
+	
+		img {
+			width: 100%;
+			filter: drop-shadow(0 0 10px $gray);
+		}
+	}
+}
+
+#grimm-page .logo {
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+footer {
+    margin: 50px auto 10px auto;
+	text-align: center;
+
+	p {
+		color: #948271;
+        text-align: center;
+        @include nospace;
+	}
+
+	.social {
+		margin: 0;
+
+		.icon {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			margin: 0 2px;
+
+			.fab {
+				text-align: center;
+				display: block;
+				line-height: 40px;
+				color: #948271;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			&:hover, 
+			&:focus {
+
+				.fab {
+                    color: #000000;
+                }
+			}
+		}
+	}
+}
+
+.scroll-top {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+	height: 50px;
+	width: 50px;
+	background: #282827;
+	border-radius: 50%;
+	cursor: pointer;
+	// @include transitionEffect;		
+
+	img {
+		width: 100%;
+	}
+
+	&:hover {
+		background: #000000;
+	}
+}
+

@@ -1,0 +1,46 @@
+/******************************************
+
+	Navigation 
+	
+******************************************/
+
+nav {
+	@include nospace;
+
+	ul {
+		text-align: center;
+		padding: 10px 0;
+        margin: 0;
+        
+
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 0 20px;
+            margin: 0 10px;
+            font-family: $fancyFont;
+            font-weight: 600;
+            font-style: italic;
+    
+            a {
+                color: #d5c1a0;
+                display: block;
+
+                &:hover {
+                    cursor: select;
+                }
+            }
+
+            .active-link {
+                color: #e8b8b2;
+                    
+                &:after {
+                    display: block;
+                    content: '';
+                    height: 30px;
+                    background: $rose no-repeat center center;                        
+                }
+            }            
+        }        
+	}
+}
