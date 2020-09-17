@@ -38,3 +38,27 @@ wp-content/*
 wp-content/plugins/*
 !wp-content/plugins/books
 # !wp-content/plugins/my-directory-plugin/
+wp-content/themes/.DS_Store
+wp-content/themes/authorQuill/languages/de_DE.mo
+wp-content/themes/authorQuill/languages/de_DE.po
+wp-content/themes/authorQuill/languages/es_CL.mo
+wp-content/themes/authorQuill/languages/es_CL.po
+wp-content/themes/authorQuill/languages/es_ES.mo
+wp-content/themes/authorQuill/languages/es_ES.po
+wp-content/themes/authorQuill/languages/fr_FR.mo
+wp-content/themes/authorQuill/languages/fr_FR.po
+wp-content/themes/authorQuill/languages/HTML5Blank.pot
+wp-content/themes/authorQuill/languages/hu_HU.mo
+wp-content/themes/authorQuill/languages/hu_HU.po
+wp-content/themes/authorQuill/languages/it_IT.mo
+wp-content/themes/authorQuill/languages/it_IT.po
+wp-content/themes/authorQuill/languages/nl_NL.mo
+wp-content/themes/authorQuill/languages/nl_NL.po
+wp-content/themes/authorQuill/languages/pt_BR.mo
+wp-content/themes/authorQuill/languages/pt_BR.po
+wp-content/themes/authorQuill/languages/ro_RO.mo
+wp-content/themes/authorQuill/languages/ro_RO.po
+wp-content/themes/authorQuill/js/lib/conditionizr-4.3.0.min.js
+wp-content/themes/authorQuill/js/lib/modernizr-2.7.1.min.js
+wp-content/themes/authorQuill/normalize.css
+wp-content/themes/authorQuill/normalize.min.css
