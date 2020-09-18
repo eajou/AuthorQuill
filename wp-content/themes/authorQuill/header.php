@@ -23,21 +23,21 @@
 		<!-- wrapper -->
 		<div class="wrapper">
       <?php if ( is_page('series') ): ?>
-          IS BOOK PAGE
-      <?php else: ?>
-      
-      <!-- header -->
-      <?php while ( have_posts() ) : the_post(); ?>
-        <header class="header clear" role="banner">
-          <div class="hero" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
-            SOME CONTENT
-          </div>
-        </header>
+          <!-- no header -->
+        <?php else: ?>
+        
+        <!-- header -->
+        <?php while ( have_posts() ) : the_post(); ?>
+          <header class="header clear" role="banner">
+            <div class="hero" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
+              SOME CONTENT
+            </div>
+          </header>
+          <?php endwhile; ?>
+      <?php endif; ?>          
 
-        <!-- nav -->
-        <nav class="nav" role="navigation">
-          <?php lyla_nav(); ?>
-        </nav>
-      </div>
-    <?php endwhile; ?>
-    <?php endif; ?>  
+      <!-- nav -->
+      <nav class="nav" role="navigation">
+        <?php lyla_nav(); ?>
+      </nav>
+    </div>
