@@ -22,7 +22,7 @@
 
 		<!-- wrapper -->
 		<div class="wrapper">
-      <?php if ( is_page('book') ): ?>
+      <?php if ( is_page('series') ): ?>
           IS BOOK PAGE
       <?php else: ?>
       
