@@ -16,34 +16,28 @@
         </script>
 
 	</head>
-	<body <?php body_class(); ?>>
+  
+    <body <?php body_class(); ?>>
+    <div id="pageTop"></div>  
 
 		<!-- wrapper -->
 		<div class="wrapper">
-
       <?php if ( is_page('book') ): ?>
-        <!-- Hide the Header -->
           IS BOOK PAGE
       <?php else: ?>
-        
-        <!-- Show the Header -->
-        <?php while ( have_posts() ) : the_post(); ?>
-        <div class="hero" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
+      
+      <!-- header -->
+      <?php while ( have_posts() ) : the_post(); ?>
+        <header class="header clear" role="banner">
+          <div class="hero" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
+            SOME CONTENT
+          </div>
+        </header>
 
-          <h2>test</h2>
-    
-          <!-- header -->
-          <header class="header clear" role="banner">
-
-            <!-- nav -->
-            <nav class="nav" role="navigation">
-              <?php lyla_nav(); ?>
-            </nav>
-            <!-- /nav -->
-
-          </header>
-          <!-- /header -->
-    
-        </div>
-      <?php endwhile; ?>
-      <?php endif; ?>  
+        <!-- nav -->
+        <nav class="nav" role="navigation">
+          <?php lyla_nav(); ?>
+        </nav>
+      </div>
+    <?php endwhile; ?>
+    <?php endif; ?>  

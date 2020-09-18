@@ -18,16 +18,16 @@ gulp.task('sass', function () {
         .pipe(sass())
         .on("error", sass.logError)
 
-        .pipe(gulp.dest("ux/assets/css"))
+        .pipe(gulp.dest("ux/css"))
     );
 });
 
 // Clean the CSS
 gulp.task('cleanCSS', function () {
-    return gulp.src('css/*.css')
+    return gulp.src('ux/css/*.css')
     .pipe(prefix())
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('src'));    
+    .pipe(gulp.dest('css'));    
 });
 
 // Watch the files
