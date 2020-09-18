@@ -4,9 +4,11 @@
 		<!-- section -->
 		<section>
 
-			<h1>This is a Page {page}</h1>
-			
-			<h1><?php the_title(); ?></h1>
+    <?php if ( is_page('series') ): ?>
+      <!-- no title -->
+    <?php else: ?>
+        <h1><?php the_title(); ?></h1>
+    <?php endif; ?>          
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 

@@ -115,7 +115,7 @@ function lyla_conditional_scripts()
 // Load HTML5 Blank styles
 function lyla_styles()
 {
-    wp_register_style('quill', get_template_directory_uri() . '/main.css', array(), '1.0', 'all');
+    wp_register_style('quill', get_template_directory_uri() . '/css/styles.css', array(), '1.0', 'all');
     wp_enqueue_style('quill'); // Enqueue it!
 }
 
@@ -125,7 +125,6 @@ function register_html5_menu()
     register_nav_menus(array( // Using array to specify more menus if needed
         'header-menu' => __('Header Menu', 'lyla'), // Main Navigation
         'sidebar-menu' => __('Sidebar Menu', 'lyla'), // Sidebar Navigation
-        'extra-menu' => __('Extra Menu', 'lyla') // Extra Navigation if needed (duplicate as many as you need!)
     ));
 }
 
