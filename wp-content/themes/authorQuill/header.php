@@ -8,12 +8,12 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
 		<?php wp_head(); ?>
-		<script>
-        conditionizr.config({
-            assets: '<?php echo get_template_directory_uri(); ?>',
-            tests: {}
-        });
-        </script>
+		  <script>
+      conditionizr.config({
+          assets: '<?php echo get_template_directory_uri(); ?>',
+          tests: {}
+      }); 
+      </script>
 
 	</head>
   
@@ -29,9 +29,7 @@
         <!-- header -->
         <?php while ( have_posts() ) : the_post(); ?>
           <header class="header clear" role="banner">
-            <div class="hero" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
-              SOME CONTENT
-            </div>
+            <div class="hero" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
           </header>
           <?php endwhile; ?>
       <?php endif; ?>          

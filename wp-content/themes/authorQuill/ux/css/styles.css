@@ -73,7 +73,7 @@ ul {
 
 p, a, li {
   font-family: "PT Serif", serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 32px;
   letter-spacing: 1px;
   font-weight: 200;
@@ -198,7 +198,7 @@ a {
 
 header {
   width: 100%;
-  height: 500px;
+  height: 400px;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -209,17 +209,17 @@ header {
     height: 100%;
     position: relative; }
 
-#home .hero {
+.home .hero {
   background-image: url("./assets/layout/home.jpg");
   background-position: bottom center; }
 
-#grimm .hero {
+.grimm .hero {
   background-image: url("./assets/series-grimm/header-grimm.png");
   background-position: top left; }
 
-#red .hero {
+.red .hero {
   background-image: url("./assets/series-red/header-red.png");
-  background-position: top left; }
+  background-position: top center; }
 
 /******************************************
 
@@ -246,9 +246,11 @@ nav {
         display: block; }
         nav ul li a:hover {
           cursor: select; }
-      nav ul li .active-link {
+      nav ul li + .current_page_item,
+      nav ul li + .current-page-ancestor {
         color: #e8b8b2; }
-        nav ul li .active-link:after {
+        nav ul li + .current_page_item:after,
+        nav ul li + .current-page-ancestor:after {
           display: block;
           content: '';
           height: 30px;

@@ -30,8 +30,9 @@ nav {
         }
       }
 
-      .active-link {
-        color: #e8b8b2;
+      + .current_page_item,
+      + .current-page-ancestor {
+        color: $pink;
           
         &:after {
           display: block;

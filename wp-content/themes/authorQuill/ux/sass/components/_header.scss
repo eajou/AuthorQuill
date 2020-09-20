@@ -7,7 +7,7 @@
 
 header {
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,17 +21,17 @@ header {
     }
 }
 
-#home .hero {
+.home .hero {
     background-image: url('./assets/layout/home.jpg');
     background-position: bottom center;
 }
 
-#grimm .hero {
+.grimm .hero {
     background-image: url('./assets/series-grimm/header-grimm.png');
     background-position: top left;
 }
 
-#red .hero {
+.red .hero {
     background-image: url('./assets/series-red/header-red.png');
-    background-position: top left;
+    background-position: top center;
 }
