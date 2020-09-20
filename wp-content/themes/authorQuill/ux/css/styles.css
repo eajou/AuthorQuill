@@ -372,18 +372,14 @@ footer {
     box-sizing: border-box;
     text-align: center; }
   .series-display #seriesGrimm {
-    background-image: url("./assets/series/grimm-bkg.png"); }
-    .series-display #seriesGrimm img {
-      margin-bottom: -150px; }
-  .series-display #seriesRed {
-    background-image: url("./assets/series/red-bkg.png"); }
-    .series-display #seriesRed .image {
-      overflow: visible; }
-      .series-display #seriesRed .image img {
-        margin-top: -30px;
-        margin-bottom: -4px; }
+    background-image: url("/assets/series/grimm-bkg.png"); }
+  .series-display #seriesRed .image {
+    overflow: visible; }
+    .series-display #seriesRed .image img {
+      margin-top: -30px;
+      margin-bottom: -4px; }
   .series-display .book {
-    background-image: url("./assets/layout/paper.png");
+    background-image: url("/assets/layout/paper.png");
     display: block; }
     .series-display .book:after {
       content: "";
