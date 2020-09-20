@@ -1,8 +1,9 @@
-<footer>
+
 	<section class="damask">
 		<div class="space"></div>
   </section>
-  
+
+<footer>
   <div class="container">
     <div class="social">
       <div class="icon">

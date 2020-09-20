@@ -81,10 +81,14 @@ a {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+
+  .content {
+	background-image: url('/assets/layout/paper.png');
+  }
 }
 
 .damask {
-    background: url('./assets/layout/main_damask.png');
+    background: url('/assets/layout/main_damask.png');
 }
 
 .space {

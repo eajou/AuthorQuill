@@ -41,17 +41,20 @@
     background-image: url('/assets/series/grimm-bkg.png');
 
     img {
-      // margin-bottom: -150px;
+      margin-bottom: -150px;
     }    
   }
 
   #seriesRed {
+    background-image: url('/assets/series/red-bkg.png');
+
     .image {
       overflow: visible;
 
       img {
+        width: 120%;
         margin-top: -30px;
-        margin-bottom: -4px;
+        margin-bottom: -6px;
       }            
     }     
   }  
@@ -76,11 +79,11 @@
       flex: none;
       float: right;
       overflow: visible;   
-      max-width: 600px;
+      max-width: 550px;
       margin-left: -100px;
 
       img {
-        margin-bottom: -4px;
+        margin-bottom: -6px;
       }
     }
   }

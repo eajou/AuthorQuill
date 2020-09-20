@@ -90,9 +90,11 @@ a {
   max-width: 960px;
   width: 100%;
   margin: 0 auto; }
+  .container .content {
+    background-image: url("/assets/layout/paper.png"); }
 
 .damask {
-  background: url("./assets/layout/main_damask.png"); }
+  background: url("/assets/layout/main_damask.png"); }
 
 .space {
   display: block;
@@ -221,8 +223,8 @@ header {
 
 /******************************************
 
-	Navigation 
-	
+Navigation 
+
 ******************************************/
 nav {
   padding: 0;
@@ -250,12 +252,11 @@ nav {
           display: block;
           content: '';
           height: 30px;
-          background: url("./assets/layout/rose-nav.png") no-repeat center center; }
+          background: url("/assets/layout/rose-nav.png") no-repeat center center; }
 
 section {
-  background: url("./assets/layout/paper.png");
   box-sizing: border-box;
-  padding: 30px; }
+  padding: 0; }
 
 button {
   display: inline-block;
@@ -373,11 +374,16 @@ footer {
     text-align: center; }
   .series-display #seriesGrimm {
     background-image: url("/assets/series/grimm-bkg.png"); }
-  .series-display #seriesRed .image {
-    overflow: visible; }
-    .series-display #seriesRed .image img {
-      margin-top: -30px;
-      margin-bottom: -4px; }
+    .series-display #seriesGrimm img {
+      margin-bottom: -150px; }
+  .series-display #seriesRed {
+    background-image: url("/assets/series/red-bkg.png"); }
+    .series-display #seriesRed .image {
+      overflow: visible; }
+      .series-display #seriesRed .image img {
+        width: 120%;
+        margin-top: -30px;
+        margin-bottom: -6px; }
   .series-display .book {
     background-image: url("/assets/layout/paper.png");
     display: block; }
@@ -395,10 +401,10 @@ footer {
       flex: none;
       float: right;
       overflow: visible;
-      max-width: 600px;
+      max-width: 550px;
       margin-left: -100px; }
       .series-display .book .image img {
-        margin-bottom: -4px; }
+        margin-bottom: -6px; }
 
 #origins .series,
 #origins .blurb > section {
